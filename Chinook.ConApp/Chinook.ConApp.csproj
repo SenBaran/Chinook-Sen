@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PROO\csvmapper\CsvMapper\CsvMapper\CsvMapper.Logic\CsvMapper.Logic.csproj" />
+    <ProjectReference Include="..\Chinook.Contracts\Chinook.Contracts.csproj" />
+    <ProjectReference Include="..\Chinook.Logic\Chinook.Logic.csproj" />
+    <ProjectReference Include="..\CommonBase\CommonBase.csproj" />
+  </ItemGroup>
+
+</Project>

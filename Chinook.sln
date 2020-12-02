@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Contracts", "Chinook.Contracts\Chinook.Contracts.csproj", "{B1032022-D8BC-4E9F-9CB5-A7EF180E621F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Logic", "Chinook.Logic\Chinook.Logic.csproj", "{8D0686E5-C9E3-40E9-80C4-4AB55BFD6452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.ConApp", "Chinook.ConApp\Chinook.ConApp.csproj", "{11B0EC95-AAF7-4CA7-ACB8-969C8C247CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonBase", "CommonBase\CommonBase.csproj", "{8D3E791B-41A2-45E6-B50B-DF8701996202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.WebApii", "Chinook.WebApii\Chinook.WebApii.csproj", "{02BCDB81-55DF-43DE-8AD9-B787A97CFC69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvMapper.Logic", "..\csvmapper\CsvMapper\CsvMapper.Logic\CsvMapper.Logic.csproj", "{0B8E2BE5-5D24-4D3D-A0A3-88CF54661AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1032022-D8BC-4E9F-9CB5-A7EF180E621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1032022-D8BC-4E9F-9CB5-A7EF180E621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1032022-D8BC-4E9F-9CB5-A7EF180E621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1032022-D8BC-4E9F-9CB5-A7EF180E621F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0686E5-C9E3-40E9-80C4-4AB55BFD6452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0686E5-C9E3-40E9-80C4-4AB55BFD6452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0686E5-C9E3-40E9-80C4-4AB55BFD6452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0686E5-C9E3-40E9-80C4-4AB55BFD6452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B0EC95-AAF7-4CA7-ACB8-969C8C247CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B0EC95-AAF7-4CA7-ACB8-969C8C247CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B0EC95-AAF7-4CA7-ACB8-969C8C247CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B0EC95-AAF7-4CA7-ACB8-969C8C247CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3E791B-41A2-45E6-B50B-DF8701996202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3E791B-41A2-45E6-B50B-DF8701996202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3E791B-41A2-45E6-B50B-DF8701996202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3E791B-41A2-45E6-B50B-DF8701996202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BCDB81-55DF-43DE-8AD9-B787A97CFC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BCDB81-55DF-43DE-8AD9-B787A97CFC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BCDB81-55DF-43DE-8AD9-B787A97CFC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BCDB81-55DF-43DE-8AD9-B787A97CFC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8E2BE5-5D24-4D3D-A0A3-88CF54661AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8E2BE5-5D24-4D3D-A0A3-88CF54661AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8E2BE5-5D24-4D3D-A0A3-88CF54661AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8E2BE5-5D24-4D3D-A0A3-88CF54661AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3458714-1D55-4965-9DBB-41940CBC6F11}
+	EndGlobalSection
+EndGlobal
